@@ -47,8 +47,10 @@ Esta seção apresenta os métodos de utilização da extensão “Contraponto�
 As verificações podem ser realizadas em toda a partitura ou apenas em um excerto selecionado. Se não houver nenhuma parte selecionada na partitura, a extensão realizará as verificações desde o primeiro compasso até o fim. Se houver uma seleção de trechos e/ou vozes, a verificação será somente nestes.
 ![seleção](https://user-images.githubusercontent.com/19985432/67819718-20ddf900-fa95-11e9-83bf-ee495fd1ad8f.png)
 
-  Neste exemplo, se fosse realizada a verificação com a extensão “Contraponto”, somente o trecho do 1º ao 8º compasso, seriam analisados. 
+  Neste exemplo, se fosse realizada a verificação com a extensão “Contraponto”, somente o trecho do 1º ao 9º compasso, seriam analisados. 
 Se não houver nenhum trecho selecionado, a extensão fará a verificação em toda a partitura.
+Para que a extensão realize as verificações é necessário selecionar o tipo de material musical que será analisado: cantus firmus, uma das 5 espécies ou contraponto livre. Esta seleção é feita através dos botões da barra superior.
+![botóesSuperior](https://user-images.githubusercontent.com/19985432/67821892-5edf1b00-fa9d-11e9-9aae-28f129310ed2.png)
 
 ### 3.2 A interface
 
@@ -59,18 +61,29 @@ Ela é dividida em duas áreas principais: a de seleção das verificações, à
 
 ## 3.3 Configurações gerais
 
-### 3.3.1 Tonalidade
-Alguns tipos de verificações somente são possíveis se a tonalidade do trecho analisado for informada (ex.: resolução da sensível). Para informar, basta selecionar através dos menus de tônica, acidente e modo, clicando nas setas:
-![Tonalidade](https://user-images.githubusercontent.com/19985432/64992127-a9b82100-d8a9-11e9-98f3-e1372c63e818.png)
+### 3.3.1 Tônica ou Finalis
+Alguns tipos de verificações somente são possíveis se a tônica ou finalis do contraponto analisado for informada (ex.: resolução da sensível). Para informar, basta selecionar através dos menus de tônica/finalis, acidente e modo, clicando nas setas:
+![TonicaFinalis](https://user-images.githubusercontent.com/19985432/67821159-c6e03200-fa9a-11e9-9b88-6bf8cf2ef48d.png)
 				  
-### 3.3.3 Voz do cantus firmus
+### 3.3.2 Voz do Cantus Firmus (CF)
+Também é necessário informar em qual voz está escrito o cantus firmus (exceto para a opção contraponto livre - versão 0.4+ - ou para opção cantus firmus). A voz superior é a 1; a inferior é a 2.
+![VozCF](https://user-images.githubusercontent.com/19985432/67821413-a369b700-fa9b-11e9-8721-cbb9070d99cd.png)
 
 ### 3.3.3 Pré-configuração de verificações
 
-Após configurar a tonalidade e a voz do cantus firmus, você pode escolher realizar a verificação com as configurações padronizadas ou criar uma nova configuração, de acordo com o seu interesse.
+Após configurar a tônica/finalis e a voz do cantus firmus, você pode escolher realizar a verificação com as configurações padronizadas ou criar uma nova configuração, de acordo com o seu interesse.
 A extensão possui uma série de pré-configurações que podem ser selecionadas clicando nos respectivos botões (em implementação...):
 
 Para salvar uma nova pré-configuração, após configurar as verificações (ver. 3.4), aperte no botão “Salvar”. Escolha o nome e o local onde o arquivo com a configuração ficará salvo e clique em OK. As informações que serão gravadas não incluem a configuração de tonalidade (3.3.1) e voz do cantus firmus (3.3.2).
 
 Para utilizar uma configuração previamente criada aperte no botão “Carregar”.
 ![presets](https://user-images.githubusercontent.com/19985432/64995602-0d464c80-d8b2-11e9-9eba-6bf80d965c3d.png)
+
+## 3.4 Configuração de verificações
+
+Na barra superior é feita a seleção do tipo de verificação a ser realizada pela extensão.
+
+### 3.4.1 Cantus Firmus (C.F.)
+
+Para a análise do Cantus Firmus, somente a pauta correspondente deve ser selecionada.
+![CF_seleção](https://user-images.githubusercontent.com/19985432/67822128-1116e280-fa9e-11e9-8554-b7d0630e3f60.png)
