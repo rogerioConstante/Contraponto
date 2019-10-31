@@ -104,7 +104,16 @@ Para configurar as verificações relativas ao Cantus Firmus, clica-se no botão
 ![tela_CF](https://user-images.githubusercontent.com/19985432/67908320-e4280580-fb59-11e9-82c6-522a0ce21a00.png)
 
 ### 3.4.2 Primeira espécie (1ª esp.)
+![tela_esp1](https://user-images.githubusercontent.com/19985432/67911269-b1cfd580-fb64-11e9-9160-fcda895451cf.png)
+### 3.4.3 Segunda espécie (2ª esp.)
+![tela_esp2](https://user-images.githubusercontent.com/19985432/67911273-b4322f80-fb64-11e9-95b8-dcd4517e2448.png)
+### 3.4.4 Terceira espécie (3ª esp.)
+![tela_esp3](https://user-images.githubusercontent.com/19985432/67911275-b6948980-fb64-11e9-93d9-3f2c0824c5f7.png)
+### 3.4.5 Quarta espécie (4ª esp.)
+![tela_esp4](https://user-images.githubusercontent.com/19985432/67911278-b8f6e380-fb64-11e9-8d6b-ae67478dae03.png)
+### 3.4.6 Quinta espécie (5ª esp.)
+![tela_esp5](https://user-images.githubusercontent.com/19985432/67911281-bb593d80-fb64-11e9-8542-d80b0c4d56f6.png)
+### 3.4.7 Contraponto livre (livre) - em implementação...
 
-
-
-
+## Lista de verificações
+![listaVerificações](https://user-images.githubusercontent.com/19985432/67911499-86011f80-fb65-11e9-83e5-77ec79be7c7e.png)
