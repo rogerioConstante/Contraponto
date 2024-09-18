@@ -5671,9 +5671,6 @@ if (tipo == "dissonância não tratada") { avalia -= 5; };
   }
   window.visible = true;
   window.raise();
-  window.raise();
-  window.raise();
-  window.raise();
  } // fecha onRun
 
 } // fecha função Musescore
