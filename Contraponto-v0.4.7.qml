@@ -1,7 +1,7 @@
 //=========================================================================================\\
-//  Analisador de Contrapontos v0.47                                                     \\
+//  Analisador de Contrapontos v0.4.7                                                      \\
 //                                                                                         \\
-//  Copyright (C)2020 Rogério Tavares Constante                                            \\
+//  Copyright (C)2024 Rogério Tavares Constante                                            \\
 //                                                                                         \\
 //  Este programa é um software livre: você pode redistribuir e/ou  modificar              \\
 //  ele nos termos da GNU General Public License como publicada pela                       \\
@@ -24,7 +24,11 @@ import MuseScore 3.0
 MuseScore {
       menuPath: qsTr("Plugins.Contraponto.Analisador")
       description: qsTr("Analisador de Contrapontos.\nPlugin de auxílio na correção de exercícios de contraponto.")
-      version: "0.47"
+      version: "0.4.7"
+
+      //4.4 title: "Analisador de Contrapontos"
+      //4.4 thumbnailName: "interface042.png"
+      //4.4 categoryCode: "Contraponto"
 
        Component.onCompleted: {
         if (mscoreMajorVersion >= 4) {
@@ -38,7 +42,7 @@ MuseScore {
   ApplicationWindow {
     id: window
     visible: true
-    title: qsTr("Analisador de Contrapontos v0.46")
+    title: qsTr("Analisador de Contrapontos v0.4.7")
       width: 700; height: 630
     color: "#020202"
 
